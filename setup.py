@@ -37,9 +37,10 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Topic :: Text Processing :: Linguistic'
     ],
-    long_description='%s\n\n%s' % (open('README.rst', encoding='utf8').read(),
-                                   open('CHANGES.rst', encoding='utf8').read()
-                                   ),
+#     long_description='%s\n\n%s' % (open('README.rst', encoding='utf8').read(),
+#                                    open('CHANGES.rst', encoding='utf8').read()
+#                                    ),
+    long_description='',
     package_data={'mozcpy': ['dic/*']},
     install_requires=install_requires,
     tests_require=['pytest'],
